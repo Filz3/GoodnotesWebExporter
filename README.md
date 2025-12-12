@@ -35,7 +35,7 @@ I was using it on Windows 10 and the login into Goodnotes Web was via my Google 
 
 # Installation:
 
-Install playwright according to tutorials availble online. Put the export-goodnotes.js and the package.json in the same folder. You might have to adjust the package.json, eg. the playwright version. Open an command windows, navigate to the folder with those files, and type "node export-goodnotes.js".
+Install node.js and playwright according to tutorials availble online. Put the export-goodnotes.js and the package.json in the same folder. You might have to adjust the package.json, eg. the playwright version. Open an command windows, navigate to the folder with those files, and type "node export-goodnotes.js".
 
 
 
