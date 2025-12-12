@@ -117,7 +117,7 @@ async function collectMetadata(page, folderPath = [], allMetadata = []) {
             if (!allMetadata.some(item => item.title === entry.title && item.path.join('/') === entry.path.join('/'))) {
                 allMetadata.push(entry);
 								saveMetadata(allMetadata);
-                console.log(`  ✅ Metadaten erfasst: ${title} im Pfad /${folderPathStr}`);
+                console.log(`  ✅ Metadata recorded: ${title} in path /${folderPathStr}`);
             }
         }
     }
