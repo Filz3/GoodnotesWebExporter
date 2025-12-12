@@ -23,7 +23,7 @@ I know it is not perfect and takes long, but I have only little programming expe
 
 ## In case of crashes:
 
-Sometimes the script crashes, mainly because Goodnotes web is slow or buggy. If it crashes during the metadata collection, delete the metadata.json completely and run the script again. If it crashes during the export routine, just restart the script. It will continue with the first entry of the metadata.json that is not marked as exported yet.
+Sometimes the script crashes, mainly because Goodnotes web is slow or buggy. If it crashes during the metadata collection, delete the metadata.json completely and run the script again. If it crashes during the export routine, just restart the script. It will continue with the first entry of the metadata.json that is not marked as exported yet. Before you contact me because of problems, please try to solve the issue yourself by either searching the internet or using AI.
 
 
 
