@@ -44,6 +44,6 @@ Install node.js and playwright according to tutorials availble online. Put the e
 If you have advice on how to improve the script, just let me know. I will then try to update the script accordingly. As I am not a professional programmer, do not tell me which features to add. Send me code and explain it please.
 
 
-### Thanks to all the people, that helped to improve the code!:
+### Thanks to all the people, that helped to improve it:
 Lennart
 
