@@ -196,7 +196,7 @@ async function processExports(page, metadata) {
         }
 
         const folderPathStr = entry.path.join(" / ") || "ROOT";
-        console.log(`\n---> Exportiere [${i + 1}/${total}]: ${entry.title} (Pfad: /${folderPathStr})`);
+        console.log(`\n---> Export [${i + 1}/${total}]: ${entry.title} (Pfad: /${folderPathStr})`);
         
         // 1. Navigate to the correct folder (preparation for click)
         await page.goto(BASE_URL); // Playwright is waiting for 'load' by default
@@ -206,7 +206,7 @@ async function processExports(page, metadata) {
         
         // Navigation to folder path
         for (const dirName of entry.path) {
-            console.log(`  Navigiere in Ordner: ${dirName}`);
+            console.log(`  Navigating to fodler: ${dirName}`);
             const folderLocator = page.locator(`[id^='libraryDocumentFolderId-']:has(p[title="${dirName}"])`);
             await folderLocator.waitFor({ state: 'visible', timeout: TIMEOUT_LONG });
             await folderLocator.click();
